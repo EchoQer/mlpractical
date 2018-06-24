@@ -1,4 +1,4 @@
-#!/bin/sh
+# !/bin/sh
 #SBATCH -N 1	  # nodes requested
 #SBATCH -n 1	  # tasks requested
 #SBATCH --gres=gpu:1
@@ -30,4 +30,5 @@ export TMP=/disk/scratch/${STUDENT_ID}/
 
 source /home/${STUDENT_ID}/miniconda3/bin/activate mlp
 
-python data.py 
+python dataset_split_normalisation.py
+python dataset_split_normalisation_1.py
