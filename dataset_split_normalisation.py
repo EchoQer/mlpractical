@@ -65,7 +65,7 @@ def max_min_normalization(data_dic):
 
 for i in range(1,63):
     
-    path = 'dataset/'  + str(i) + '.json'
+    path = 'data/'  + str(i) + '.json'
     if i == 1 :
         dataset = read_file(path)
     else:
