@@ -97,7 +97,7 @@ print(len(training_data))
 print(len(validation_data))    
 print(len(test_data))    
  
-write_grid_internet_activity(training_data,'dataset/training/training_max_min.json')
-write_grid_internet_activity(validation_data,'dataset/validation/validation_max_min.json')
-write_grid_internet_activity(test_data,'dataset/test/test_max_min.json')
+write_grid_internet_activity(training_data,'data/training_max_min.json')
+write_grid_internet_activity(validation_data,'data/validation_max_min.json')
+write_grid_internet_activity(test_data,'data/test_max_min.json')
  
